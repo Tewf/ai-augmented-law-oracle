@@ -6,8 +6,8 @@ A model translates a statute into code and a verdict back into words; [law-oracl
 decides whether the translation is accepted. The model proposes, a program disposes. The field calls the first direction
 **autoformalization** of law, and the second **explanation** or **verbalization**.
 
-> **Status (2026-11-12):** one decision taken; nothing built. The first step runs DeonticBench, the baseline, with a local
-> model before any code of our own.
+> **Status (2026-11-12):** one decision taken; nothing built of our own. B2 ran on its smoke split with a local 7B model:
+> the Prolog route abstains where the direct answer is wrong ([runs](evidence/baseline-runs.md)).
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction. Nothing here is legal
 > advice. Corrections are welcome as issues.

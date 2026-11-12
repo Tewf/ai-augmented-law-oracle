@@ -11,3 +11,10 @@ path = "decisions"
 question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `decisions` is the folder the decision-record shape names for its records; it holds the README and record 0001 today, and grows one file per choice."
+
+[[answer]]
+check = "tree-shape"
+path = "evidence"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `evidence` is the folder the family's layout names for what the repository rests on, as in law-oracle; it holds the baseline runs today and each later run beside them."

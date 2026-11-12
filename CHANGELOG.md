@@ -9,4 +9,5 @@ A pin move is recorded here, not in decisions/.
 
 - Pinned reader-ergonomics v1.24.2 (`65e4247`), at the repository's start: the standard's pin, link, changelog and
   decision-record checks, which this skeleton is written to pass.
+- B2's first run: DeonticBench `3c168f9`, smoke split, local model, in evidence/baseline-runs.md.
 - Linked law-oracle at `c07cb0c` for its review, bibliography and decisions; decision 0001.
