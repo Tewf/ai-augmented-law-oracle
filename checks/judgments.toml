@@ -1,7 +1,7 @@
 [[answer]]
 check = "tree-shape"
 path = "checks"
-question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `checks` is the folder the extension contract names for the config and the answers, and the standard's runner reads it there."
 
