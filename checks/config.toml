@@ -1,0 +1,24 @@
+# Merged onto reader-ergonomics' own config, table by table; a value here wins (extending.md, the interface).
+extends = "reader-ergonomics"
+
+[co_change]
+exempt = ["checks/judgments.toml"]
+
+# No site yet, so no stylesheet to measure.
+[readable_measure]
+stylesheets = []
+
+[sufficient_contrast]
+stylesheets = []
+
+# The headings the software-design decision-record shape requires (v1.1.0, shapes/decision-record.md).
+[shape_conformance]
+shapes = [{ name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Options", "Consequences", "See also"] }]
+
+[judgment_quotes]
+optional = []
+
+[bibliography_keys]
+# A key names one work across the family (reader-ergonomics decision 0003); CI clones each name beside this repository.
+family = ["reader-ergonomics", "law-oracle"]
+shared_links = []
