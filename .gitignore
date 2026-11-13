@@ -1,2 +1,9 @@
 checks/out/
 __pycache__/
+_site/
+.quarto/
+_freeze/
+_standard/
+
+/.quarto/
+**/*.quarto_ipynb
