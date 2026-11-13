@@ -47,6 +47,19 @@ digraph loop {
 - The verdict's three values and the formal layers are law-oracle's: its
   [decisions](https://github.com/Tewf/law-oracle/tree/c07cb0c92a16ed70f4961db9322e7a5afabb4848/decisions).
 
+## Next: what makes its claims testable
+
+Two experiments, each with its measure. Neither is started; both use [law-oracle](https://github.com/Tewf/law-oracle)'s
+disagreement enumerator as the judge.
+
+1. **Fidelity.** A model translates the articles of the French family allowances, read at their source on Légifrance,
+   into Catala. Its encoding is scored by the share of the enumerated cases where it decides as Catala's own encoding
+   does (law-oracle's B1), not by whether it compiles.
+2. **The loop.** Each disagreement goes back to the model as a concrete case. The measure is the agreement per round,
+   and the round where it stops rising.
+
+Both run on Mistral through a confined runner, with the tokens and the cost logged per article.
+
 ## Baseline
 
 **B2:** DeonticBench's symbolic setting ([guangyaodou/DeonticBench](https://github.com/guangyaodou/DeonticBench)): a model
